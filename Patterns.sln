@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loans.Processing", "Pipelin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PipelinePattern", "PipelinePattern", "{5B1CFB3F-6668-4411-B132-9C0A26212BF0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpecificationPattern", "SpecificationPattern", "{F98B2451-9A9A-4152-9BBD-CFE2EBF6A7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecificationPattern", "SpecificationPattern\SpecificationPattern.csproj", "{4916D2C2-E692-41FA-8307-8EBAF4240F34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{D4440A74-18FA-47E6-BD75-9A31EE348601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4440A74-18FA-47E6-BD75-9A31EE348601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4440A74-18FA-47E6-BD75-9A31EE348601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4916D2C2-E692-41FA-8307-8EBAF4240F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4916D2C2-E692-41FA-8307-8EBAF4240F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4916D2C2-E692-41FA-8307-8EBAF4240F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4916D2C2-E692-41FA-8307-8EBAF4240F34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A5B7739F-3871-4A9B-A15D-F11ECE6BBDDF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{D4440A74-18FA-47E6-BD75-9A31EE348601} = {5B1CFB3F-6668-4411-B132-9C0A26212BF0}
+		{4916D2C2-E692-41FA-8307-8EBAF4240F34} = {F98B2451-9A9A-4152-9BBD-CFE2EBF6A7C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E97F84E1-CE2B-471D-B9A3-506C3E93930A}
